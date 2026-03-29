@@ -1,18 +1,12 @@
-# Capacitor Sign in With Apple
+# @xhuliom/capacitor-apple-sign-in
 
-Capacitor plugin to support [Sign in With Apple](https://developer.apple.com/sign-in-with-apple/get-started/)
+Capacitor 8 compatible fork of [`@capacitor-community/apple-sign-in`](https://github.com/capacitor-community/apple-sign-in).
 
-<!-- Badges -->
-<a href="https://npmjs.com/package/@capacitor-community/apple-sign-in">
-  <img src="https://img.shields.io/npm/v/@capacitor-community/apple-sign-in.svg">
-</a>
-<a href="https://npmjs.com/package/@capacitor-community/apple-sign-in">
-  <img src="https://img.shields.io/npm/l/@capacitor-community/apple-sign-in.svg">
-</a>
+> **Fork note:** This is a fork of the original [capacitor-community/apple-sign-in](https://github.com/capacitor-community/apple-sign-in) plugin by the Capacitor Community contributors. The only change is updating the Swift Package Manager dependency from `capacitor-swift-pm` 7.x to 8.x for Capacitor 8 compatibility. All credit for the original implementation goes to the original authors. Licensed under MIT.
 
 ## Installation
 
-- `npm i @capacitor-community/apple-sign-in`
+- `npm i @xhuliom/capacitor-apple-sign-in`
 - `npx cap update`
 
 ## Usage (iOS, Web)
@@ -22,7 +16,7 @@ import {
   SignInWithApple,
   SignInWithAppleResponse,
   SignInWithAppleOptions,
-} from '@capacitor-community/apple-sign-in';
+} from '@xhuliom/capacitor-apple-sign-in';
 
 const options: SignInWithAppleOptions = {
   clientId: 'com.your.webservice',
